@@ -4,7 +4,6 @@ module.exports = {
   PASSWD: "123@vai",
   DB: "nodejs_mysql",
   dialect: "mysql",
-  operatorsAliases: false,
   pool: {
     max: 5,
     min: 0,

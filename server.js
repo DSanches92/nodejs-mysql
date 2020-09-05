@@ -18,7 +18,7 @@ const db = require("./app/models")
 //db.conexao.sync()
 //Desenvolvimento
 db.conexao.sync({ force: true }).then(() => {
-  console.log("Drop and re-sync db.")
+  console.log("Tabelas recriadas.")
 })
 
 app.get("/", (req, res) => {
